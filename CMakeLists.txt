@@ -43,7 +43,7 @@ generate_export_header(cpp-can-parser
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/exports/cpp_can_parser_export.h
 		DESTINATION ${CMAKE_INSTALL_PREFIX}/include)
 
-install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include
+install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include/cpp-can-parser
 		DESTINATION ${CMAKE_INSTALL_PREFIX}/include)
 
 install(TARGETS cpp-can-parser LIBRARY DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
